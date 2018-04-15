@@ -1,9 +1,15 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var App =
-require('./components/App');
+
+import Hello from './components/App';
+
+// function Hello () {
+//   return (
+//     <h1>Hello world</h1>
+//   );
+// }
 
 ReactDOM.render(
-  <App />,
+  <Hello />,
   document.getElementById('app')
 );

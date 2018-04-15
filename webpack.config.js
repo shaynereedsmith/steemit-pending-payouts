@@ -8,6 +8,7 @@ var HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
 });
 
 module.exports = {
+  mode: 'production',
   entry: __dirname + '/app/index.js',
   module: {
     rules: [
